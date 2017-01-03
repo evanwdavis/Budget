@@ -1,7 +1,7 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target 'MyApp' do
+target 'Budget' do
   pod 'RealmSwift'
 end
 
