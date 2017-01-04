@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'Budget' do
   pod 'RealmSwift'
+  pod 'FoursquareAPIClient'
 end
 
 post_install do |installer|

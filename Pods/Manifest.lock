@@ -1,4 +1,5 @@
 PODS:
+  - FoursquareAPIClient (2.0.0)
   - Realm (2.1.2):
     - Realm/Headers (= 2.1.2)
   - Realm/Headers (2.1.2)
@@ -6,13 +7,15 @@ PODS:
     - Realm (= 2.1.2)
 
 DEPENDENCIES:
+  - FoursquareAPIClient
   - ORStackView (~> 3.0)
   - RealmSwift
 
 SPEC CHECKSUMS:
+  FoursquareAPIClient: 243eb011fd35e223883086fbea993b5eac2de70c
   Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
   RealmSwift: 17d6ee30b6f9df86364408c2197492e33bfea567
 
-PODFILE CHECKSUM: 8b121a1a28d4c448fd2cd0eed435b7a67cd7ec57
+PODFILE CHECKSUM: 41a6af63645d5f5a28e32ec9e772e68ecd6b352a
 
 COCOAPODS: 1.1.1
