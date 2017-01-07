@@ -26,8 +26,6 @@ import RealmSwift
 
 //item #5 - ship it. 
 
-// making a dumb change to get my git commit
-
 
 final class Expense: Object {
     dynamic var expenseText = ""
