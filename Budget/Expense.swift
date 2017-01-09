@@ -27,6 +27,10 @@ import RealmSwift
 //item #5 - ship it. 
 
 
+// let's do this 
+
+
+
 final class Expense: Object {
     dynamic var expenseText = ""
     dynamic var category = ""
