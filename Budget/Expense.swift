@@ -36,7 +36,7 @@ final class Expense: Object {
     dynamic var category = ""
     dynamic var amount = 0.0
     dynamic var date = Date()
-    var place = Place()
+    dynamic var place = Place()
     
     
     convenience init(text: String) {

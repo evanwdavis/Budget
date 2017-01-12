@@ -11,7 +11,9 @@ import RealmSwift
 
 class Category: Object {
     
-    // name
-    // icon
-    // budget?  -- need to think about how i might scale complexity after version 1! worth sketching out in notebook
+    dynamic var name: String?
+    dynamic var iconName: String?
+    var budgetMonthly: Double?
+    var budgetWeekly: Double?
+    dynamic var expenses:[Expense]?
 }

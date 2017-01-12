@@ -15,6 +15,8 @@
 		077C9F501E1F7C840011AC31 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C9F4E1E1F7C840011AC31 /* Category.swift */; };
 		077C9F521E1F7CB40011AC31 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C9F511E1F7CB40011AC31 /* Place.swift */; };
 		077C9F531E1F7CB40011AC31 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C9F511E1F7CB40011AC31 /* Place.swift */; };
+		077C9F571E2335540011AC31 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C9F561E2335540011AC31 /* LocationManager.swift */; };
+		077C9F581E2335540011AC31 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C9F561E2335540011AC31 /* LocationManager.swift */; };
 		077F281E1E1B88A8006B3DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F281D1E1B88A8006B3DDA /* AppDelegate.swift */; };
 		077F28201E1B88A8006B3DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F281F1E1B88A8006B3DDA /* ViewController.swift */; };
 		077F28231E1B88A8006B3DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077F28211E1B88A8006B3DDA /* Main.storyboard */; };
@@ -39,6 +41,7 @@
 		077C9F4B1E1F7C7C0011AC31 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		077C9F4E1E1F7C840011AC31 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		077C9F511E1F7CB40011AC31 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		077C9F561E2335540011AC31 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		077F281A1E1B88A8006B3DDA /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077F281D1E1B88A8006B3DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		077F281F1E1B88A8006B3DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077C9F541E23352B0011AC31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				077C9F4B1E1F7C7C0011AC31 /* Expense.swift */,
+				077C9F4E1E1F7C840011AC31 /* Category.swift */,
+				077C9F511E1F7CB40011AC31 /* Place.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		077C9F551E2335380011AC31 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				077C9F561E2335540011AC31 /* LocationManager.swift */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
 		077F28111E1B88A8006B3DDA = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +124,8 @@
 				077F28261E1B88A8006B3DDA /* LaunchScreen.storyboard */,
 				077F28291E1B88A8006B3DDA /* Info.plist */,
 				077C9F481E1F7A940011AC31 /* AddExpenseViewController.swift */,
-				077C9F4B1E1F7C7C0011AC31 /* Expense.swift */,
-				077C9F4E1E1F7C840011AC31 /* Category.swift */,
-				077C9F511E1F7CB40011AC31 /* Place.swift */,
+				077C9F551E2335380011AC31 /* Location */,
+				077C9F541E23352B0011AC31 /* Models */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -295,6 +315,7 @@
 				077C9F4C1E1F7C7C0011AC31 /* Expense.swift in Sources */,
 				077C9F4F1E1F7C840011AC31 /* Category.swift in Sources */,
 				077F28201E1B88A8006B3DDA /* ViewController.swift in Sources */,
+				077C9F571E2335540011AC31 /* LocationManager.swift in Sources */,
 				077C9F521E1F7CB40011AC31 /* Place.swift in Sources */,
 				077C9F491E1F7A940011AC31 /* AddExpenseViewController.swift in Sources */,
 				077F281E1E1B88A8006B3DDA /* AppDelegate.swift in Sources */,
@@ -307,6 +328,7 @@
 			files = (
 				077C9F4D1E1F7C7C0011AC31 /* Expense.swift in Sources */,
 				077F28331E1B88A9006B3DDA /* BudgetTests.swift in Sources */,
+				077C9F581E2335540011AC31 /* LocationManager.swift in Sources */,
 				077C9F4A1E1F7A940011AC31 /* AddExpenseViewController.swift in Sources */,
 				077C9F501E1F7C840011AC31 /* Category.swift in Sources */,
 				077C9F531E1F7CB40011AC31 /* Place.swift in Sources */,
